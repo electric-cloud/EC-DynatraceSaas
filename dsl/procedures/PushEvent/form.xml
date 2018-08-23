@@ -1,0 +1,96 @@
+<!--
+
+     Copyright 2016 Electric Cloud, Inc.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+
+-->
+<editor>
+    <formElement>
+        <type>entry</type>
+        <label>Configuration:</label>
+        <property>config</property>
+        <required>1</required>
+        <documentation>The name of the configuration to use.</documentation>
+    </formElement>
+	<formElement>
+        <type>entry</type>
+        <label>BUILDURL:</label>
+        <property>BUILDURL</property>
+        <required>1</required>
+        <documentation>The build URL.</documentation>
+    </formElement>
+	<formElement>
+        <type>entry</type>
+        <label>CILINK:</label>
+        <property>CILINK</property>
+        <required>1</required>
+        <documentation>The link of CI engine.</documentation>
+    </formElement>
+	<formElement>
+        <type>entry</type>
+        <label>DEPLOYMENTNAME:</label>
+        <property>DEPLOYMENTNAME</property>
+        <required>1</required>
+        <documentation>The name of the deployment.</documentation>
+    </formElement>
+	<formElement>
+        <type>entry</type>
+        <label>DEPLOYMENTPROJECT:</label>
+        <property>DEPLOYMENTPROJECT</property>
+        <required>1</required>
+        <documentation>The name of the DEPLOYMENT PROJECT.</documentation>
+    </formElement>
+	<formElement>
+        <type>entry</type>
+        <label>DEPLOYMENTVERSION:</label>
+        <property>DEPLOYMENTVERSION</property>
+        <required>1</required>
+        <documentation>The name of the DEPLOYMENT VERSION.</documentation>
+    </formElement>
+	<formElement>
+        <type>entry</type>
+        <label>ENTITYTYPE:</label>
+        <property>ENTITYTYPE</property>
+        <required>1</required>
+        <documentation>The name of the ENTITY TYPE.</documentation>
+    </formElement>
+	<formElement>
+        <type>entry</type>
+        <label>GITCOMMIT:</label>
+        <property>GITCOMMIT</property>
+        <required>1</required>
+        <documentation>The GIT COMMIT ID.</documentation>
+    </formElement>
+	<formElement>
+        <type>entry</type>
+        <label>TAGCONTEXT:</label>
+        <property>TAGCONTEXT</property>
+        <required>1</required>
+        <documentation>The name of the TAG CONTEXT.</documentation>
+    </formElement>
+	<formElement>
+        <type>entry</type>
+        <label>TAGNAME:</label>
+        <property>TAGNAME</property>
+        <required>1</required>
+        <documentation>The name of the TAG.</documentation>
+    </formElement>
+	<formElement>
+        <type>entry</type>
+        <label>TAGVALUE:</label>
+        <property>TAGVALUE</property>
+        <required>1</required>
+        <documentation>The name of the TAG VALUE.</documentation>
+    </formElement>
+</editor>
